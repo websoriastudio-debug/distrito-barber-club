@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Distrito Barber Club | Barbería: corte, barba y ritual completo</title>
+  <meta name="description" content="Barbería de corte, barba y afeitado a navaja. Elige servicio y barbero y reserva tu cita en Distrito Barber Club.">
+  <meta name="theme-color" content="#161514">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Distrito Barber Club">
+  <meta property="og:title" content="Distrito Barber Club | Tu estilo. Nuestra firma.">
+  <meta property="og:description" content="Corte, barba y ritual completo. Elige servicio y barbero y reserva tu cita.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&h=630&q=70">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400&family=Hanken+Grotesk:wght@400;500;600&display=swap">
+  <link rel="preload" as="image"
+        href="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1600&q=70"
+        imagesrcset="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1600&q=70 1600w, https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=2400&q=65 2400w"
+        imagesizes="100vw" fetchpriority="high">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="js/config.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="header" data-header>
+    <div class="header__inner">
+      <a class="logo" href="#inicio" aria-label="Distrito Barber Club, volver al inicio">
+        <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M13 10h7.5c6 0 9.5 4 9.5 10s-3.5 10-9.5 10H13z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M17 10v20" stroke="currentColor" stroke-width="1.2"/></svg>
+        <span class="logo__text"><span class="logo__name">Distrito</span><span class="logo__sub">Barber Club</span></span>
+      </a>
+
+      <nav class="nav" id="menu" aria-label="Principal">
+        <ul class="nav__list">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--primary btn--sm header__cta" href="#reserva">Reservar cita</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" data-menu-toggle>
+        <span class="menu-toggle__bars" aria-hidden="true"></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- PORTADA -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__media frame" data-hero-media>
+        <img
+          src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1600&q=70"
+          srcset="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1600&q=70 1600w, https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=2400&q=65 2400w"
+          sizes="100vw" width="1600" height="1067"
+          alt="Barbero perfilando la barba de un cliente en penumbra"
+          fetchpriority="high" decoding="async">
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title" id="hero-title">
+          <span class="line"><span>Tu estilo.</span></span>
+          <span class="line"><span>Nuestra firma.</span></span>
+        </h1>
+        <p class="hero__lead">Corte, barba y afeitado a navaja, hechos con calma y con criterio.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#reserva">Reservar cita</a>
+          <a class="btn btn--ghost" href="#servicios">Explorar servicios</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section services" id="servicios" aria-labelledby="servicios-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="servicios-title" data-reveal>Servicios</h2>
+          <p data-reveal>Tres servicios, bien hechos. Cada uno incluye consulta previa y acabado con producto.</p>
+        </div>
+        <div class="services__list" data-services>
+          <noscript><p>Corte, barba y ritual completo. Escríbenos para reservar.</p></noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section class="section experience" id="experiencia" aria-labelledby="experiencia-title">
+      <div class="wrap experience__grid">
+        <div class="experience__intro">
+          <h2 id="experiencia-title" data-reveal>La silla es tuya el tiempo que haga falta.</h2>
+          <p data-reveal>Reservamos cada cita con margen. Sin colas en la puerta y sin mirar el reloj mientras trabajamos.</p>
+        </div>
+
+        <figure class="experience__item experience__item--wide">
+          <div class="frame" data-reveal="image">
+            <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1400&q=70"
+                 srcset="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=700&q=70 700w, https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1400&q=70 1400w, https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=2000&q=65 2000w"
+                 sizes="(min-width: 960px) 62vw, 100vw" width="1400" height="930" loading="lazy" decoding="async"
+                 alt="Interior de la barbería con sillas de cuero, espejos y pared de ladrillo bajo luz cálida">
+          </div>
+          <figcaption data-reveal>
+            <h3>El local</h3>
+            <p>Luz cálida, sillas de cuero y música a volumen de conversación. Un sitio para sentarse sin prisa.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="experience__item experience__item--detail">
+          <div class="frame" data-reveal="image">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&h=900&q=70"
+                 srcset="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=500&h=500&q=70 500w, https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&h=900&q=70 900w"
+                 sizes="(min-width: 960px) 30vw, 100vw" width="900" height="900" loading="lazy" decoding="async"
+                 alt="Tijeras, peine, máquinas y productos de barbería sobre una tabla oscura">
+          </div>
+          <figcaption data-reveal>
+            <h3>Los detalles</h3>
+            <p>Toalla caliente, navaja de hoja nueva en cada servicio y productos elegidos según tu tipo de pelo.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="experience__item experience__item--advice">
+          <div class="frame" data-reveal="image">
+            <img src="https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=900&h=1125&q=70"
+                 srcset="https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=500&h=625&q=70 500w, https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=900&h=1125&q=70 900w"
+                 sizes="(min-width: 960px) 34vw, 100vw" width="900" height="1125" loading="lazy" decoding="async"
+                 alt="Barbero recortando la barba de un cliente con tijera">
+          </div>
+          <figcaption data-reveal>
+            <h3>Asesoría de estilo</h3>
+            <p>Te decimos qué te favorece y qué mantenimiento pide. Si un corte no va con tu pelo, te lo diremos.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- EL OFICIO: secuencia del proceso -->
+    <section class="section craft" id="oficio" aria-labelledby="oficio-title">
+      <div class="wrap">
+        <div class="section-head section-head--split">
+          <h2 id="oficio-title" data-reveal>Un corte, en cuatro tiempos.</h2>
+          <p data-reveal>Así trabajamos cada servicio, de la primera pregunta al último retoque.</p>
+        </div>
+
+        <div class="craft__layout" data-craft>
+          <div class="craft__stage" aria-hidden="true">
+            <div class="craft__frame frame">
+              <img class="is-active" data-craft-img="0" src="https://images.unsplash.com/photo-1640301133857-c4bc5789c1bb?auto=format&fit=crop&w=1000&h=1250&q=70" width="1000" height="1250" loading="lazy" decoding="async" alt="">
+              <img data-craft-img="1" src="https://images.unsplash.com/photo-1493256338651-d82f7acb2b38?auto=format&fit=crop&w=1000&h=1250&q=70" width="1000" height="1250" loading="lazy" decoding="async" alt="">
+              <img data-craft-img="2" src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1000&h=1250&q=70" width="1000" height="1250" loading="lazy" decoding="async" alt="">
+              <img data-craft-img="3" src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=1000&h=1250&q=70" width="1000" height="1250" loading="lazy" decoding="async" alt="">
+            </div>
+            <div class="craft__progress"><span data-craft-bar></span></div>
+          </div>
+
+          <ol class="craft__steps">
+            <li class="craft__step is-active" data-craft-step="0">
+              <div class="craft__inline frame">
+                <img src="https://images.unsplash.com/photo-1640301133857-c4bc5789c1bb?auto=format&fit=crop&w=800&h=1000&q=70" width="800" height="1000" loading="lazy" decoding="async" alt="Barbero observando el cabello del cliente antes de empezar">
+              </div>
+              <span class="craft__num" aria-hidden="true">1</span>
+              <h3>Lectura</h3>
+              <p>Antes de tocar el pelo, hablamos: cómo crece, cómo lo peinas y cuánto tiempo le dedicas por la mañana.</p>
+            </li>
+            <li class="craft__step" data-craft-step="1">
+              <div class="craft__inline frame">
+                <img src="https://images.unsplash.com/photo-1493256338651-d82f7acb2b38?auto=format&fit=crop&w=800&h=1000&q=70" width="800" height="1000" loading="lazy" decoding="async" alt="Máquina de corte trabajando la nuca del cliente">
+              </div>
+              <span class="craft__num" aria-hidden="true">2</span>
+              <h3>Forma</h3>
+              <p>Máquina y tijera marcan la base. Trabajamos por secciones para que el volumen caiga donde debe.</p>
+            </li>
+            <li class="craft__step" data-craft-step="2">
+              <div class="craft__inline frame">
+                <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&h=1000&q=70" width="800" height="1000" loading="lazy" decoding="async" alt="Barbero definiendo una línea con navaja junto a la sien">
+              </div>
+              <span class="craft__num" aria-hidden="true">3</span>
+              <h3>Detalle</h3>
+              <p>Navaja para las líneas, tijera para las texturas. Es la parte lenta, y es donde se nota la mano.</p>
+            </li>
+            <li class="craft__step" data-craft-step="3">
+              <div class="craft__inline frame">
+                <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&h=1000&q=70" width="800" height="1000" loading="lazy" decoding="async" alt="Barbero secando y peinando el cabello del cliente">
+              </div>
+              <span class="craft__num" aria-hidden="true">4</span>
+              <h3>Acabado</h3>
+              <p>Lavado, secado y producto. Te explicamos cómo repetir el peinado en casa, con lo que ya tienes.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- EQUIPO -->
+    <section class="section team" id="equipo" aria-labelledby="equipo-title">
+      <div class="wrap">
+        <div class="section-head section-head--split">
+          <h2 id="equipo-title" data-reveal>El equipo</h2>
+          <p data-reveal>Cada barbero tiene su mano. Elige con quién sentarte o déjalo a nuestro criterio.</p>
+        </div>
+        <ul class="team__list" data-team></ul>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section gallery" id="galeria" aria-labelledby="galeria-title">
+      <div class="wrap">
+        <div class="section-head section-head--split">
+          <h2 id="galeria-title" data-reveal>Galería</h2>
+          <div class="filters" role="group" aria-label="Filtrar galería">
+            <button type="button" class="chip" data-filter="todo" aria-pressed="true">Todo</button>
+            <button type="button" class="chip" data-filter="cortes" aria-pressed="false">Cortes</button>
+            <button type="button" class="chip" data-filter="barba" aria-pressed="false">Barba</button>
+            <button type="button" class="chip" data-filter="espacio" aria-pressed="false">Espacio</button>
+            <button type="button" class="chip" data-filter="detalles" aria-pressed="false">Detalles</button>
+          </div>
+        </div>
+        <p class="sr-only" aria-live="polite" data-gallery-status></p>
+
+        <ul class="gallery__grid" data-gallery>
+          <li data-cat="espacio"><button type="button" class="gallery__item frame" aria-label="Ampliar: sillas de barbero bajo lámparas colgantes"><img src="https://images.unsplash.com/photo-1536520002442-39764a41e987?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1536520002442-39764a41e987?auto=format&fit=max&w=1800&q=75" width="700" height="1050" loading="lazy" decoding="async" alt="Fila de sillas de barbero bajo lámparas colgantes encendidas"></button></li>
+          <li data-cat="detalles"><button type="button" class="gallery__item frame" aria-label="Ampliar: navaja y brocha de afeitar"><img src="https://images.unsplash.com/photo-1524230616393-d6229fcd2eff?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1524230616393-d6229fcd2eff?auto=format&fit=max&w=1800&q=75" width="700" height="467" loading="lazy" decoding="async" alt="Navaja de afeitar, brocha y cuenco de crema"></button></li>
+          <li data-cat="barba"><button type="button" class="gallery__item frame" aria-label="Ampliar: perfilado con máquina"><img src="https://images.unsplash.com/photo-1533245270348-821d4d5c7514?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1533245270348-821d4d5c7514?auto=format&fit=max&w=1800&q=75" width="700" height="1050" loading="lazy" decoding="async" alt="Barbero tatuado perfilando con máquina"></button></li>
+          <li data-cat="cortes"><button type="button" class="gallery__item frame" aria-label="Ampliar: degradado con raya marcada"><img src="https://images.unsplash.com/photo-1568339434343-2a640a1a9946?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1568339434343-2a640a1a9946?auto=format&fit=max&w=1800&q=75" width="700" height="933" loading="lazy" decoding="async" alt="Degradado lateral con raya marcada a navaja"></button></li>
+          <li data-cat="espacio"><button type="button" class="gallery__item frame" aria-label="Ampliar: puestos de trabajo en penumbra"><img src="https://images.unsplash.com/photo-1773904215697-e6c21fc27ac2?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1773904215697-e6c21fc27ac2?auto=format&fit=max&w=1800&q=75" width="700" height="1047" loading="lazy" decoding="async" alt="Sillas de barbero y lavacabezas en un salón con poca luz"></button></li>
+          <li data-cat="barba"><button type="button" class="gallery__item frame" aria-label="Ampliar: repaso de barba con peine"><img src="https://images.unsplash.com/photo-1761931403667-a6753db21f32?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1761931403667-a6753db21f32?auto=format&fit=max&w=1800&q=75" width="700" height="1050" loading="lazy" decoding="async" alt="Barbero peinando el cabello del cliente antes de repasar"></button></li>
+          <li data-cat="cortes"><button type="button" class="gallery__item frame" aria-label="Ampliar: degradado alto con barba completa"><img src="https://images.unsplash.com/photo-1630827020718-3433092696e7?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1630827020718-3433092696e7?auto=format&fit=max&w=1800&q=75" width="700" height="1050" loading="lazy" decoding="async" alt="Perfil de un cliente con barba espesa y pelo oscuro peinado hacia atrás"></button></li>
+          <li data-cat="detalles"><button type="button" class="gallery__item frame" aria-label="Ampliar: máquina de corte en primer plano"><img src="https://images.unsplash.com/photo-1635273051839-003bf06a8751?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1635273051839-003bf06a8751?auto=format&fit=max&w=1800&q=75" width="700" height="1050" loading="lazy" decoding="async" alt="Primer plano de una máquina de corte trabajando el lateral"></button></li>
+          <li data-cat="espacio"><button type="button" class="gallery__item frame" aria-label="Ampliar: salón con barberos trabajando"><img src="https://images.unsplash.com/photo-1759134198561-e2041049419c?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1759134198561-e2041049419c?auto=format&fit=max&w=1800&q=75" width="700" height="875" loading="lazy" decoding="async" alt="Salón amplio con barberos trabajando en varias sillas"></button></li>
+          <li data-cat="barba"><button type="button" class="gallery__item frame" aria-label="Ampliar: línea de frente con guantes"><img src="https://images.unsplash.com/photo-1788328155052-e02abe9ba983?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1788328155052-e02abe9ba983?auto=format&fit=max&w=1800&q=75" width="700" height="1058" loading="lazy" decoding="async" alt="Barbero con guantes negros marcando la línea de la frente"></button></li>
+          <li data-cat="cortes"><button type="button" class="gallery__item frame" aria-label="Ampliar: degradado en la nuca"><img src="https://images.unsplash.com/photo-1772442088712-df1780cbb709?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1772442088712-df1780cbb709?auto=format&fit=max&w=1800&q=75" width="700" height="933" loading="lazy" decoding="async" alt="Nuca con degradado limpio vista desde atrás"></button></li>
+          <li data-cat="detalles"><button type="button" class="gallery__item frame" aria-label="Ampliar: corte a tijera en blanco y negro"><img src="https://images.unsplash.com/photo-1783908688260-0c47404926f3?auto=format&fit=crop&w=700&q=70" data-full="https://images.unsplash.com/photo-1783908688260-0c47404926f3?auto=format&fit=max&w=1800&q=75" width="700" height="1050" loading="lazy" decoding="async" alt="Manos con guantes negros cortando a tijera, en blanco y negro"></button></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Opiniones: se omite hasta disponer de testimonios reales. -->
+
+    <!-- RESERVA -->
+    <section class="section booking" id="reserva" aria-labelledby="reserva-title">
+      <div class="wrap booking__grid">
+        <div class="booking__intro">
+          <h2 id="reserva-title" data-reveal>Reserva tu cita</h2>
+          <p data-reveal data-booking-explainer>Elige servicio y barbero. Preparamos el mensaje con tu elección para que lo envíes por WhatsApp y te propongamos hora.</p>
+          <ol class="booking__how" data-reveal>
+            <li>Elige el servicio.</li>
+            <li>Elige barbero o déjalo abierto.</li>
+            <li data-booking-step3>Envía el mensaje y acordamos la hora.</li>
+          </ol>
+        </div>
+
+        <form class="booking__form" data-booking novalidate>
+          <fieldset class="field">
+            <legend>Servicio</legend>
+            <div class="options" data-booking-services></div>
+            <p class="field__error" id="error-servicio" data-error="servicio" hidden>Elige un servicio para continuar.</p>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend>Barbero</legend>
+            <div class="options options--compact" data-booking-team></div>
+          </fieldset>
+
+          <div class="field field--row">
+            <div>
+              <label for="nombre">Tu nombre <span class="optional">(opcional)</span></label>
+              <input id="nombre" name="nombre" type="text" autocomplete="given-name" maxlength="60">
+            </div>
+            <div>
+              <label for="preferencia">¿Cuándo te viene bien? <span class="optional">(opcional)</span></label>
+              <input id="preferencia" name="preferencia" type="text" maxlength="80" placeholder="Por ejemplo: jueves por la tarde">
+            </div>
+          </div>
+
+          <div class="booking__summary" aria-live="polite">
+            <p class="booking__summary-label">Tu mensaje</p>
+            <p class="booking__summary-text" data-booking-preview>Elige un servicio para ver el mensaje.</p>
+          </div>
+
+          <button class="btn btn--dark btn--block" type="submit" data-booking-submit>Enviar por WhatsApp</button>
+          <p class="booking__note" data-booking-note role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section class="section location" id="ubicacion" aria-labelledby="ubicacion-title">
+      <div class="wrap location__grid">
+        <div class="location__text">
+          <h2 id="ubicacion-title" data-reveal>Te esperamos en el Distrito.</h2>
+          <address class="location__address" data-reveal>
+            <span data-biz="direccion"></span><br>
+            <span data-biz="ciudad"></span>
+          </address>
+          <dl class="hours" data-hours data-reveal></dl>
+          <ul class="contact" data-reveal>
+            <li><a data-biz-link="tel"></a></li>
+            <li><a data-biz-link="email"></a></li>
+            <li data-biz-instagram hidden><a data-biz-link="instagram" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+          <div class="location__actions" data-reveal>
+            <a class="btn btn--primary" href="#reserva">Reservar cita</a>
+            <a class="btn btn--ghost" data-biz-link="mapa" target="_blank" rel="noopener">Cómo llegar</a>
+          </div>
+        </div>
+        <div class="location__media frame" data-reveal="image">
+          <img src="https://images.unsplash.com/photo-1781925856343-c97d0d44f94c?auto=format&fit=crop&w=1200&h=1400&q=70"
+               srcset="https://images.unsplash.com/photo-1781925856343-c97d0d44f94c?auto=format&fit=crop&w=600&h=700&q=70 600w, https://images.unsplash.com/photo-1781925856343-c97d0d44f94c?auto=format&fit=crop&w=1200&h=1400&q=70 1200w"
+               sizes="(min-width: 960px) 45vw, 100vw" width="1200" height="1400" loading="lazy" decoding="async"
+               alt="Zona de espera de la barbería con sofá de cuero y revistas">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <a class="logo logo--footer" href="#inicio" aria-label="Distrito Barber Club, volver al inicio">
+        <span class="logo__text"><span class="logo__name">Distrito</span><span class="logo__sub">Barber Club</span></span>
+      </a>
+      <ul class="footer__nav">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#equipo">Equipo</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#reserva">Reservar</a></li>
+      </ul>
+      <p class="footer__meta">
+        <span data-year></span> Distrito Barber Club. Fotografías: <a href="https://unsplash.com/license" target="_blank" rel="noopener">Unsplash</a>.
+        <span class="footer__demo" data-demo-note hidden>Precios, equipo, horarios y datos de contacto son de demostración.</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Visor de la galería -->
+  <dialog class="lightbox" data-lightbox aria-label="Imagen ampliada">
+    <figure class="lightbox__figure">
+      <div class="lightbox__frame frame" data-lightbox-frame></div>
+      <figcaption data-lightbox-caption></figcaption>
+    </figure>
+    <button class="lightbox__btn lightbox__close" type="button" data-lightbox-close aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <button class="lightbox__btn lightbox__prev" type="button" data-lightbox-prev aria-label="Imagen anterior">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <button class="lightbox__btn lightbox__next" type="button" data-lightbox-next aria-label="Imagen siguiente">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </dialog>
+</body>
+</html>
